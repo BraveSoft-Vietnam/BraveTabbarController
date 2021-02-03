@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BraveTabbarController_Example' do
+  pod 'BraveTabbarController', :path => '../'
+
+  target 'BraveTabbarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
