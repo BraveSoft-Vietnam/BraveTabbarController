@@ -1,0 +1,16 @@
+PODS:
+  - BraveTabbarController (1.1.2)
+
+DEPENDENCIES:
+  - BraveTabbarController (from `../`)
+
+EXTERNAL SOURCES:
+  BraveTabbarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BraveTabbarController: 0397e172415668984dfd7892eaaf3a4e6b689a92
+
+PODFILE CHECKSUM: 7e7cba088651d554d3bd78a6f01c1e808d766b59
+
+COCOAPODS: 1.10.0

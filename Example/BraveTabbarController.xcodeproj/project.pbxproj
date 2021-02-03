@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E76D5EA25CA907A00020169 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E76D5E225CA907A00020169 /* PostViewController.xib */; };
+		0E76D5EB25CA907A00020169 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76D5E325CA907A00020169 /* RankingViewController.swift */; };
+		0E76D5EC25CA907A00020169 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76D5E425CA907A00020169 /* MyPageViewController.swift */; };
+		0E76D5ED25CA907A00020169 /* MainTabbarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E76D5E525CA907A00020169 /* MainTabbarController.xib */; };
+		0E76D5EE25CA907A00020169 /* RankingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E76D5E625CA907A00020169 /* RankingViewController.xib */; };
+		0E76D5EF25CA907A00020169 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76D5E725CA907A00020169 /* PostViewController.swift */; };
+		0E76D5F025CA907A00020169 /* MyPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E76D5E825CA907A00020169 /* MyPageViewController.xib */; };
+		0E76D5F125CA907A00020169 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76D5E925CA907A00020169 /* MainTabbarController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -29,15 +35,21 @@
 
 /* Begin PBXFileReference section */
 		0188F0DA9E1F52655970E344 /* Pods-BraveTabbarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveTabbarController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BraveTabbarController_Tests/Pods-BraveTabbarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E76D5E225CA907A00020169 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
+		0E76D5E325CA907A00020169 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		0E76D5E425CA907A00020169 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		0E76D5E525CA907A00020169 /* MainTabbarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabbarController.xib; sourceTree = "<group>"; };
+		0E76D5E625CA907A00020169 /* RankingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingViewController.xib; sourceTree = "<group>"; };
+		0E76D5E725CA907A00020169 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0E76D5E825CA907A00020169 /* MyPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPageViewController.xib; sourceTree = "<group>"; };
+		0E76D5E925CA907A00020169 /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		23EA67E0B06A841A18394810 /* Pods_BraveTabbarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraveTabbarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		286376B5DBB2FC06074AADB9 /* Pods-BraveTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveTabbarController_Example.debug.xcconfig"; path = "Target Support Files/Pods-BraveTabbarController_Example/Pods-BraveTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44B1DD7D62922E79F99F063B /* BraveTabbarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BraveTabbarController.podspec; path = ../BraveTabbarController.podspec; sourceTree = "<group>"; };
-		4B89233338DBDD9255E44FA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		44B1DD7D62922E79F99F063B /* BraveTabbarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BraveTabbarController.podspec; path = ../BraveTabbarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B89233338DBDD9255E44FA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BraveTabbarController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraveTabbarController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BraveTabbarController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveTabbarController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +57,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A4BA8E3D6002BF3DCA467B35 /* Pods-BraveTabbarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveTabbarController_Example.release.xcconfig"; path = "Target Support Files/Pods-BraveTabbarController_Example/Pods-BraveTabbarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8C1C6FBE90FAB2BDC0EB08B /* Pods-BraveTabbarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveTabbarController_Tests.release.xcconfig"; path = "Target Support Files/Pods-BraveTabbarController_Tests/Pods-BraveTabbarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B37AB8D28AFC4A47DF2F3443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B37AB8D28AFC4A47DF2F3443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CDD6A91933BD033F9EA77381 /* Pods_BraveTabbarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraveTabbarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,9 +114,15 @@
 		607FACD21AFB9204008FA782 /* Example for BraveTabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				0E76D5E925CA907A00020169 /* MainTabbarController.swift */,
+				0E76D5E525CA907A00020169 /* MainTabbarController.xib */,
+				0E76D5E425CA907A00020169 /* MyPageViewController.swift */,
+				0E76D5E825CA907A00020169 /* MyPageViewController.xib */,
+				0E76D5E725CA907A00020169 /* PostViewController.swift */,
+				0E76D5E225CA907A00020169 /* PostViewController.xib */,
+				0E76D5E325CA907A00020169 /* RankingViewController.swift */,
+				0E76D5E625CA907A00020169 /* RankingViewController.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -156,7 +174,6 @@
 				0188F0DA9E1F52655970E344 /* Pods-BraveTabbarController_Tests.debug.xcconfig */,
 				A8C1C6FBE90FAB2BDC0EB08B /* Pods-BraveTabbarController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				0E76D5EE25CA907A00020169 /* RankingViewController.xib in Resources */,
+				0E76D5ED25CA907A00020169 /* MainTabbarController.xib in Resources */,
+				0E76D5EA25CA907A00020169 /* PostViewController.xib in Resources */,
+				0E76D5F025CA907A00020169 /* MyPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0E76D5EF25CA907A00020169 /* PostViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0E76D5F125CA907A00020169 /* MainTabbarController.swift in Sources */,
+				0E76D5EC25CA907A00020169 /* MyPageViewController.swift in Sources */,
+				0E76D5EB25CA907A00020169 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

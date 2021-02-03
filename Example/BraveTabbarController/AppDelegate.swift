@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  BraveTabbarController
+//  BSTabbarController
 //
-//  Created by hienpham@bravesoft.com.vn on 02/03/2021.
-//  Copyright (c) 2021 hienpham@bravesoft.com.vn. All rights reserved.
+//  Created by Hien Pham on 05/08/2019.
+//  Copyright (c) 2019 Hien Pham. All rights reserved.
 //
 
 import UIKit
@@ -14,8 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let vc: MainTabbarController = MainTabbarController(nibName: String(describing: MainTabbarController.self), bundle:nil)
+        let navController = UINavigationController(rootViewController: vc)
+        navController.isNavigationBarHidden = true
+        
+        // Attach to window
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+
         return true
     }
 
