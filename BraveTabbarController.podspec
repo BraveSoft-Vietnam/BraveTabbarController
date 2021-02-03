@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BraveTabbarController'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'An alternative for UITabbarController.'
 
 # This description is used to generate tags and improve search results.

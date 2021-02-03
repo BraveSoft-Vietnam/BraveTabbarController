@@ -2,19 +2,6 @@
 
 BraveTabbarController is an swift alternative for UITabbarController. UITabbarController is good but not easy to customize. Such as: if you want to customize tab bar icons, you have to follow apple design guides, which is complicated. Moreover, UITabbarController is good to use in storyboard, but not as well in xib. BraveTabbarController is created to mimic UITabbarController but free developers from apple's complicated design guides.
 
-## Install cocoapod spec repo
-Before running example or install, please run command:  
-```ruby
-pod repo
-```
-In order to check whether the cocoapod spec with the following url has been installed or not:  
-```ruby
-https://bsvframeworks@bitbucket.org/bravesoftvietnam/cocoapods-specs.git
-```
-If not, run the following command:  
-```ruby
-pod repo add bsv_frameworks https://bsvframeworks@bitbucket.org/bravesoftvietnam/cocoapods-specs.git
-```
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -23,21 +10,14 @@ If encounter error `[!] Unable to find a specification ...` upon running `pod in
 After that rerun command `pod install`
 
 ## Requirements
-- iOS 8.0+
+- iOS 9.0+
 
 ## Installation
 
 BraveTabbarController is available through [CocoaPods](https://cocoapods.org). To install it, first the beginning add the following line to your Podfile:  
-```
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bsvframeworks@bitbucket.org/bravesoftvietnam/cocoapods-specs.git'
-```  
-then add:  
 ```ruby
 pod 'BraveTabbarController'
 ```
-If encounter error `[!] Unable to find a specification ...` upon running `pod install` then perform step **Install cocoapod spec repo** above.  
-After that rerun command `pod install`
 
 ## Usage
 
