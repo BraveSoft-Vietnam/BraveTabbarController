@@ -6,9 +6,6 @@ BraveTabbarController is an swift alternative for UITabbarController. UITabbarCo
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-If encounter error `[!] Unable to find a specification ...` upon running `pod install` then perform step **Install cocoapod spec repo** above.
-After that rerun command `pod install`
-
 ## Requirements
 - iOS 9.0+
 
@@ -100,6 +97,16 @@ If you want more customization, then set it to `false` and override method `onTa
     @objc optional func tabBarController(_ tabBarController: BraveTabbarController, didSelectAtIndex selectedIndex: Int)
 }
 ```
+
+### References
+Here is the list of all public properties and method you can use:
+- `viewControllers`:  An array of the root view controllers displayed by the tab bar interface.
+- `selectedIndex`:  The index of the view controller associated with the currently selected tab item.
+- `delegate`: The tab bar controller’s delegate object.
+- `tabButtons`: Outlet for tab buttons. Make sure buttons' tag is set in increasing order to make it handle select tab button correctly.
+- `contentViewContainer`: Container for tabbar selected content.
+- `onTabClick`: Event when click on tab item. You can override this method for customization.
+- `selectedViewController`: The view controller associated with the currently selected tab item, read only.
 
 ## Author
 

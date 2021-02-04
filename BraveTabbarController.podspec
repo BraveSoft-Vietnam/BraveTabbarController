@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BraveTabbarController'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'An alternative for UITabbarController.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is an alternative for UITabbarController which helps to create tabbar controller more easily and provide more prexibility, written in swift.
                        DESC
 
   s.homepage         = 'https://github.com/bsv-hienpham1991/BraveTabbarController.git'
