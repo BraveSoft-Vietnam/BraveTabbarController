@@ -69,13 +69,13 @@ That's all, here is a video demonstrated the above set up (this is for objective
 - In case you want BraveTabbarController to subclass other classed, please create a wrapper view controller, add BraveTabbarController as child view controller, then subclass the wrapper.
 
 ### Access ancestor
-Like `UITabbarController`, `BraveTabbarController` also provide an extension which helps you to retrieve tab bar controller from its children by using property `bsTabBarController`
+Like `UITabbarController`, `BraveTabbarController` also provide an extension which helps you to retrieve tab bar controller from its children by using property `braveTabBarController`
 ```swift
 extension UIViewController {
     /**
      The nearest ancestor in the view controller hierarchy that is BraveTabbarController.
      */
-    open var bsTabBarController: BraveTabbarController? { get }
+    open var braveTabBarController: BraveTabbarController? { get }
 }
 ```
 
