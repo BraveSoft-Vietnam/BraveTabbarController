@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This is an alternative for UITabbarController which helps to create tabbar controller more easily and provide more prexibility, written in swift.
                        DESC
 
-  s.homepage         = 'https://github.com/bsv-hienpham1991/BraveTabbarController.git'
+  s.homepage         = 'https://github.com/BraveSoft-Vietnam/BraveTabbarController.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hien Pham' => 'hienpham@bravesoft.com.vn' }
-  s.source           = { :git => 'https://github.com/bsv-hienpham1991/BraveTabbarController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BraveSoft-Vietnam/BraveTabbarController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
