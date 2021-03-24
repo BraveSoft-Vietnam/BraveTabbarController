@@ -51,7 +51,7 @@ open class BraveTabbarController: UIViewController {
     /**
      Container for tabbar selected content.
      */
-    @IBOutlet public weak var contentViewContainer: UIView!
+    @IBOutlet public weak var contentViewContainer: UIView?
     
     /**
      Event when click on tab item.
