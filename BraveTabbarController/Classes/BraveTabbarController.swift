@@ -110,14 +110,16 @@ open class BraveTabbarController: UIViewController {
     }
     
     fileprivate func addAndDisplayChildViewController(_ childViewController: UIViewController) {
-        childViewController.view.translatesAutoresizingMaskIntoConstraints = false
-        contentViewContainer.addSubview(childViewController.view)
-        childViewController.view.leadingAnchor.constraint(equalTo: contentViewContainer.leadingAnchor).isActive = true
-        childViewController.view.trailingAnchor.constraint(equalTo: contentViewContainer.trailingAnchor).isActive = true
-        childViewController.view.topAnchor.constraint(equalTo: contentViewContainer.topAnchor).isActive = true
-        childViewController.view.bottomAnchor.constraint(equalTo: contentViewContainer.bottomAnchor).isActive = true
         childViewController.willMove(toParent: self)
+        childViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        let container: UIView = contentViewContainer ?? view
+        container.addSubview(childViewController.view)
+        childViewController.view.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
+        childViewController.view.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
+        childViewController.view.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
+        childViewController.view.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
         addChild(childViewController)
+        childViewController.didMove(toParent: self)
     }
     
     fileprivate func removeAndDismissChildViewController(_ childViewController: UIViewController) {
