@@ -143,14 +143,16 @@ open class BraveTabbarController: UIViewController {
         assert(newIndex < viewControllers.count, "View controller index out of bounds")
         if isViewLoaded == true, newIndex != oldIndex {
             if (isFirstTimeDisplay == false) && (oldIndex < viewControllers.count) {
-                if let fromButton: UIButton = tabButtons?[oldIndex] {
+                if oldIndex < (tabButtons?.count ?? 0),
+                   let fromButton: UIButton = tabButtons?[oldIndex] {
                     deselectTabButton(fromButton)
                 }
                 let fromViewController: UIViewController = viewControllers[oldIndex]
                 removeAndDismissChildViewController(fromViewController)
             }
             
-            if let toButton: UIButton = tabButtons?[newIndex] {
+            if newIndex < (tabButtons?.count ?? 0),
+               let toButton: UIButton = tabButtons?[newIndex] {
                 selectTabButton(toButton)
             }
             
